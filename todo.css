@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Lobster&family=Lora&family=Pacifico&family=Shadows+Into+Light&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Great+Vibes&family=Lobster&family=Lora&family=Pacifico&family=Shadows+Into+Light&family=Vidaloka&display=swap');
+body{
+    background-image: url("./todo_image/todoiamge1.jpg");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-attachment: fixed;
+background-position-x: right;
+}
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    font-weight: 600;
+}
+.box1{
+    width: 30vw;
+    border-bottom:yellowgreen  solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+}
+#lists{
+    margin-left:120px;
+    margin-top: 20px;
+}
+li{
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 600;
+    
+}
+@media(max-width:500px){
+   .box1{
+        margin-left: 100px;
+        width: 250px;
+    }
+    button{
+        margin-left: 100px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    li{
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
+
